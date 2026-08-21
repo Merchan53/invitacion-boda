@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+  --font-script: "Great Vibes", cursive;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Montserrat", sans-serif;
+
+  --color-wedding-bg: #d8c8b8;
+  --color-wedding-card: #ffffff;
+  --color-wedding-sage: #9ca18c;
+  --color-wedding-rose: #c3a59b;
+  --color-wedding-gold: #b9964d;
+  --color-wedding-text: #4a4a4a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100%;
+  overflow-x: hidden;
+  background-color: var(--color-wedding-bg);
+}
+
+body {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100dvh;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: var(--color-wedding-bg);
+  color: var(--color-wedding-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Contenedor exclusivo para móvil */
+.invitation-layout {
+  position: relative;
+  isolation: isolate;
+
+  width: 100%;
+  max-width: 480px;
+  min-height: 100dvh;
+
+  margin-inline: auto;
+  padding-bottom: calc(6rem + env(safe-area-inset-bottom));
+
+
+  overflow: hidden;
+
+  background-color: var(--color-wedding-card);
+  box-shadow: 0 0 50px rgb(74 74 74 / 12%);
+}
+
+/* Reproductor alineado con el borde interno de la invitación */
+.music-player {
+  position: fixed;
+  right: max(1rem, calc((100vw - 480px) / 2 + 1rem));
+  bottom: max(1rem, calc(env(safe-area-inset-bottom) + 1rem));
+  z-index: 40;
+
+  display: grid;
+  place-items: center;
+
+  width: 3.25rem;
+  height: 3.25rem;
+
+  border: 1px solid rgb(195 165 155 / 35%);
+  border-radius: 9999px;
+
+  background-color: rgb(255 255 255 / 90%);
+  color: var(--color-wedding-rose);
+
+  box-shadow:
+    0 10px 30px rgb(74 74 74 / 14%),
+    inset 0 0 0 1px rgb(255 255 255 / 60%);
+
+  backdrop-filter: blur(12px);
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.music-player:focus-visible {
+  outline: 2px solid var(--color-wedding-rose);
+  outline-offset: 4px;
+}
+
+@media (max-width: 359px) {
+  .music-player {
+    right: 0.75rem;
+    bottom: max(0.75rem, calc(env(safe-area-inset-bottom) + 0.75rem));
+
+    width: 3rem;
+    height: 3rem;
+  }
+}
