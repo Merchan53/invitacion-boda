@@ -6,8 +6,7 @@ import {
   useTransform,
 } from "motion/react";
 
-import image from "../../../public/Imagenes/imagen miguel con aquila con fondo de cuadro.png";
-console.log(image);
+const image = "/Imagenes/imagen miguel con aquila con fondo de cuadro.png";
 
 export default function HorizontalSeparator() {
   const ref = useRef(null);

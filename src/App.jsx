@@ -53,7 +53,7 @@ export default function App() {
 
   return (
     <div className="relative min-h-screen overflow-x-hidden bg-wedding-bg text-wedding-text font-sans">
-      <audio ref={audioRef} src="/public/music/Donde Dios Nos Unió.mp3" loop preload="auto" />
+      <audio ref={audioRef} src="/music/cancion-boda.mp3" loop preload="auto" />
 
       {/* Sobre flotante */}
       <Envelope onOpen={handleOpen} />
@@ -61,7 +61,7 @@ export default function App() {
       {/* Reproductor de música */}
       {isOpen && <AudioPlayer isPlaying={isPlaying} onToggle={toggleAudio} />}
 
-      <main className="max-w-xl mx-auto shadow-2xl bg-white pb-20">
+      <main className="max-w-xl mx-auto shadow-2xl bg-white pb-5">
         {/* PASAMOS LA PROP isOpen AL HERO */}
         <Hero isOpen={isOpen} />
         <Blessing />

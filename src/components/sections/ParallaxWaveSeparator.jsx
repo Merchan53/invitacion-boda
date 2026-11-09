@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 // Reemplaza esto con tu imagen real de los novios
-import image from "../../../public/Imagenes/imagen miguel sosteniendo la mano de aquila.png";
+const image = "/Imagenes/imagen miguel sosteniendo la mano de aquila.png";
 
 export default function ParallaxWaveSeparator() {
   const ref = useRef(null);

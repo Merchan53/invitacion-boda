@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import heartlottie from "../../assets/lottie/Hearth.json";
 // Asegúrate de tener la imagen correcta en esta ruta
-import heroImage from "../../../public/Imagenes/Imagen miguel con aquila compromiso.png"; 
+const heroImage = "/Imagenes/Imagen miguel con aquila compromiso.png";
 
 // Subcomponente para renderizar el Lottie sin repetir código
 const Heartlo = ({ className }) => {
@@ -89,7 +89,7 @@ export default function Hero({ isOpen }) {
           // Ajustado el nombre a Tamara, según la imagen
           className="font-script text-wedding-gold text-6xl md:text-7xl mb-6 tracking-wide drop-shadow-sm text-center mt-4"
         >
-          Miguel Angel <br/> & <br/> Tamara Aquila 
+          Jose Angel <br/> & <br/> Yenitse
         </motion.h1>
 
         {/* FECHA */}

@@ -79,7 +79,7 @@ export default function Countdown() {
         whileInView={{ opacity: 0.9, scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
-        src="/public/flores.png" 
+        src="/flores.png" 
         alt="Decoración floral" 
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full max-w-[600px] object-contain z-10 opacity-90"
       />

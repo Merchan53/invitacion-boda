@@ -18,12 +18,12 @@ export const GUESTS_DATA = {
   },
   "alvarados": {
     name: "Familia Alvarado",
-    passes: 4,
+    passes: 6,
     note: "Nos alegra mucho contar con su presencia.",
   },
   "sequera": {
     name: "Familia Sequera",
-    passes: 5,
+    passes: 4,
     note: "Nos alegra mucho contar con su presencia.",
   },
   "molina-gonzalez": {
@@ -92,7 +92,7 @@ export const GUESTS_DATA = {
     note: "Nos alegra mucho contar con su presencia.",
   },
   "naileth-prato": {
-    name: "Familia Espinoza Sequera",
+    name: "Naileth Prato",
     passes: 1,
     note: "Nos alegra mucho contar con su presencia.",
   },
@@ -102,8 +102,8 @@ export const GUESTS_DATA = {
     note: "Nos alegra mucho contar con su presencia.",
   },
   "jorge": {
-    name: "Jorge",
-    passes: 1,
+    name: "Jorge Ruiz y esposa",
+    passes: 2,
     note: "Nos alegra mucho contar con su presencia.",
   },
   "fabio-rujano": {
@@ -382,7 +382,7 @@ export const GUESTS_DATA = {
     note: "Nos alegra mucho contar con su presencia.",
   },
   "hno-haxiel": {
-    name: "Hno Haxiel",
+    name: "Hno Jahaziel",
     passes: 1,
     note: "Nos alegra mucho contar con su presencia.",
   },
@@ -463,9 +463,72 @@ export const GUESTS_DATA = {
   },
   "hno-alexis-anex": {
     name: "Hno Alexis Añex",
+    passes: 1,
+    note: "Nos alegra mucho contar con su presencia.",
+  },
+  "william-alfredo-gonzalez-saavedra": {
+    name: "William Alfredo Gonzalez Saavedra",
+    passes: 1,
+    note: "Nos alegra mucho contar con su presencia.",
+  },
+  "wilmer-alexander-gonzalez-gelviz": {
+    name: "Wilmer Alexander Gonzalez Gelviz",
+    passes: 1,
+    note: "Nos alegra mucho contar con su presencia.",
+  },
+  "miryam-ruth-gonzalez-gelviz": {
+    name: "Miryam Ruth Gonzalez Gelviz",
+    passes: 1,
+    note: "Nos alegra mucho contar con su presencia.",
+  },
+  "familia-gelves": {
+    name: "Familia Gelves",
+    passes: 3,
+    note: "Nos alegra mucho contar con su presencia.",
+  },
+  "genesis": {
+    name: "Genesis",
     passes: 2,
     note: "Nos alegra mucho contar con su presencia.",
   },
+  "elizabeth": {
+    name: "Elizabeth",
+    passes: 1,
+    note: "Nos alegra mucho contar con su presencia.",
+  },
+  "hna-graciela": {
+    name: "Hna Graciela",
+    passes: 1,
+    note: "Nos alegra mucho contar con su presencia.",
+  },
+  "hna-leonor": {
+    name: "Hna Leonor",
+    passes: 1,
+    note: "Nos alegra mucho contar con su presencia.",
+  },
+  "nubia": {
+    name: "Sra. Nubia",
+    passes: 1,
+    note: "Nos alegra mucho contar con su presencia.",
+  },
+  "chacon-sequera": {
+    name: "Familia Chacon Sequera",
+    passes: 7,
+    note: "Nos alegra mucho contar con su presencia.",
+  },
+  "familia-hamburguer": {
+    name: "Gabriela Hamburguer y familia",
+    passes: 4,
+    note: "Nos alegra mucho contar con su presencia.",
+  },
+  "lloyd-walls-pastor": {
+    name: "Lloyd A. Walls Pastor ",
+    passes: 1,
+    note: "Nos alegra mucho contar con su presencia.",
+  },
+  
+
+
 };
 
 // Invitado por defecto si no se pasa ningún parámetro en la URL o si la clave no existe

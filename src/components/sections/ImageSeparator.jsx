@@ -58,7 +58,7 @@ export default function ImageSeparator() {
           >
             {/* FOTO CON EFECTO CINEMÁTICO DE ENTRADA (Una sola vez) */}
             <motion.img
-              src='../../../public/Imagenes/imagen miguel con aquila  iglesia.png'
+              src="/Imagenes/imagen miguel con aquila  iglesia.png"
               alt="Decoración boda"
               className="w-full h-full object-contain"
               variants={imageVariants}

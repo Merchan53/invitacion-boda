@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import finalImage from "../../../public/Imagenes/imagen manos unidas anillos.png";
+const finalImage = "/Imagenes/imagen manos unidas anillos.png";
 
 const fadeUp = {
   initial: { opacity: 0, y: 30 },

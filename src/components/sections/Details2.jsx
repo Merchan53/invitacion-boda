@@ -34,13 +34,13 @@ export default function Details2() {
         }
       >
         <h3 className="font-serif text-4xl text-wedding-sage">
-          Google Calendat
+          Google Calendar
         </h3>
 
         <p className="font-serif text-2xl text-wedding-text mt-6 text-bold">
           Nuestra Boda 
           <br />
-        Martes, 10 de Octubre 27.
+        Sabado, 10 de Octubre 26.
         </p>
       </Card>
     </section>
